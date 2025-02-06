@@ -1,0 +1,55 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f0f5f9, #c9d6df);
+    text-align: center;
+    color: #333;
+}
+
+/* Titre principal */
+h1 {
+    color: #52616b;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+}
+
+/* Conteneur des iframes */
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    padding: 20px;
+}
+
+/* Style des iframes */
+iframe {
+    border: 3px solid #007BFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+iframe:hover {
+    transform: scale(1.02);
+}
+
+/* Liens */
+a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: white;
+    background: #007BFF;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background 0.3s ease-in-out;
+}
+
+a:hover {
+    background: #74ebd5;
+}

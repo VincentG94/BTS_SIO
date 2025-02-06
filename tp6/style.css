@@ -1,0 +1,97 @@
+/* identification.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Applique une police moderne et une taille de texte agréable */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f0f5f9, #c9d6df);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Style du conteneur principal pour centrer le contenu */
+.center-content {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Titre de la page */
+h1 {
+    color: #52616b;
+}
+
+/* Espacement et style des labels */
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+/* Styles des champs de texte */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Change la couleur des champs quand on est en focus */
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+/* Style des boutons */
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Change la couleur des boutons au survol */
+button:hover {
+    background-color: #74ebd5;
+}
+
+/* Style du lien */
+a {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/* Style du lien au survol */
+a:hover {
+    background-color: #74ebd5;
+}
